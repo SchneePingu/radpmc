@@ -1,4 +1,4 @@
-base=RadPMC
-
-make:	${base}.hs
-	ghc --make -O2 -dynamic -rtsopts -fforce-recomp ${base}.hs
+build:  
+	cabal v2-build
+install:
+	cabal v2-install --lib radpmc

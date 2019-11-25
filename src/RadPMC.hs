@@ -1,9 +1,4 @@
-module RadPMC
-( Range
-, QNumber
-, Config
-, solve
-) where
+module RadPMC (Range (..), QNumber (..), Config (..), solve) where
 
 type Energy = Double
 data Range = Range Double Double Double
